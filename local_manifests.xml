@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Device Tree - Samsung Galaxy Tab A8 (gta8 / SM-X205) -->
+  <project
+    name="iann404-t/device_samsung_gta8_x205"
+    path="device/samsung/gta8"
+    remote="github"
+    revision="main" />
+
+  <!-- Vendor Blobs -->
+  <project
+    name="iann404-t/vendor_samsung_gta8_x205"
+    path="vendor/samsung/gta8"
+    remote="github"
+    revision="main" />
+
+  <!-- Kernel Source (Unisoc T618 / 4.14) -->
+  <project
+    name="DevCat3/android_kernel_samsung_gta8"
+    path="kernel/samsung/gta8"
+    remote="github"
+    revision="main" />
+
+</manifest>
